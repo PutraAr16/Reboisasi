@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
+        <link href="./bootstrap-5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="centering">
+            <form class="my-form" action="home.html">
+                <div class="signup-welcome-row">
+                    <h1 style="color: darkgreen; font-family: 'Courier New', Courier, monospace;">SALOBASTA</h1>
+                    <h4>Welcome Back!</h4><br>
+                </div>
+                <div class="my-form__content">
+                    <div class="text-field">
+                        <label for="email">Email:</label>
+                        <input
+                            aria-label="Email"
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter Your Email"
+                            autocomplete="off"
+                            required
+                        >
+                    <br><br>
+                        <label for="Password">Password:&nbsp;</label>
+                        <input
+                            aria-label="password"
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter Your Password"
+                            autocomplete="off"
+                            required
+                        >
+                    </div>
+                    <!--? more fields -->
+                    <input type="submit" class="my-form__buttonL" value="Login">
+                </div>
+                <div class="my-form__actions_2">
+                    <div>
+                        <span>Did you forget your password?</span>
+                        <a href="#" title="Reset Password">Reset Password</a>
+                    </div>
+                    <div class="my-form__signin2">
+                        <a style="color: black;">Don't Have an account?&nbsp;</a> <a href="signup.html" title="Sign In">Sign up</a>
+                    </div>
+                    <div class="divider">
+                        <div class="divider-line"></div>
+                        OR
+                        <div class="divider-line"></div>
+                    </div>
+                    <div class="socials-row">
+                        <a
+                            href="https://accounts.google.com"
+                            title="Use Google"
+                        >
+                            <img src="assets/google.png" alt="Google">
+                            Sign in with Google
+                        </a>
+                        <a
+                            href="https://m.facebook.com/login"
+                            title="Use Facebook"
+                        >
+                            <img src="assets/facebook.png" alt="Facebook">
+                            Sign in with Facebook
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

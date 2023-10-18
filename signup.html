@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Signup</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
+        <link href="./bootstrap-5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="centering">
+            <form class="my-form" action="sign.html">
+                <div class="signup-welcome-row">
+                    <h1 style="color: darkgreen; font-family: 'Courier New', Courier, monospace;">SALOBASTA</h1>
+                    <h4>Sign Up!</h4>
+                </div>
+                <div class="my-form__content">
+                    <div class="text-field">
+                        <label for="email">Email:</label>
+                        <input
+                            aria-label="Email"
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter Your Email"
+                            autocomplete="off"
+                            required
+                        >
+                    <br><br>
+                        <label for="Password">Password:</label>
+                        <input
+                            aria-label="password"
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter Your Password"
+                            autocomplete="off"
+                            required
+                        >
+                    <br><br>
+                        <label for="RePassword">Repeat Password:</label>
+                        <input
+                            aria-label="password"
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter Your Password"
+                            autocomplete="off"
+                            required
+                        >
+                    </div>
+                    
+                    <input type="submit" class="my-form__button"  value="Sign Up">
+                </div>
+                <div class="my-form__actions">
+                    <div>
+                        <input type="checkbox" name="" id="" required>
+                        By registering you agree to our
+                        <a href="#" title="Reset Password">Terms</a>
+                        and <a href="#" title="Reset Password">Privacy</a>
+                    </div>
+                    <div class="divider">
+                        <div class="divider-line"></div>
+                        OR
+                        <div class="divider-line"></div>
+                    </div>
+                    <div class="socials-row">
+                        <a
+                            href="https://accounts.google.com"
+                            title="Use Google"
+                        >
+                            <img src="assets/google.png" alt="Google">
+                            Sign in with Google
+                        </a>
+                        <a
+                            href="https://m.facebook.com/login"
+                            title="Use Facebook"
+                        >
+                            <img src="assets/facebook.png" alt="Facebook">
+                            Sign in with Facebook
+                        </a>
+                    </div>
+                    <div class="my-form__signin">
+                        <a style="color: black;">Have an account?&nbsp;</a> <a href="sign.html" title="Sign In">Sign in</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
